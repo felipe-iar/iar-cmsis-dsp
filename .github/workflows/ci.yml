@@ -1,10 +1,18 @@
 name: IAR-CMSIS-DSP CI
 
 on:
+  schedule:
+  - cron: '45 4 * * *'
   workflow_dispatch:
   push:
     paths-ignore:
       - 'README.md'    
+
+# Set a new GitHub Actions Secret named IAR_LMS_BEARER_TOKEN
+# for your repository. The secret is then propagated to an
+# Environment variable used for all jobs within this workflow
+env:
+  IAR_LMS_BEARER_TOKEN: ${{ secrets.IAR_LMS_BEARER_TOKEN }}
 
 jobs:
   build:
@@ -38,7 +46,7 @@ jobs:
         - ARMv81MMLldfdp
         - ARMv81MMLldfdph
     container:
-      image: ghcr.io/iarsystems/bxarm
+      image: ghcr.io/iarsystems/arm
     steps:
     - uses: actions/checkout@v4
       with:
@@ -80,7 +88,7 @@ jobs:
         - arm_svm_example
         - arm_variance_example
     container:
-      image: ghcr.io/iarsystems/bxarm
+      image: ghcr.io/iarsystems/arm
     steps:
     - uses: actions/checkout@v4
       with:
@@ -97,20 +105,15 @@ jobs:
       run: |
         iarbuild Examples/${{ matrix.example }}.ewp -build "*" -log all -parallel `nproc`
     - name: Run example
-      uses: felipe-iar/cspybat@v1
-      with:
-        elf: ${GITHUB_WORKSPACE}/Examples/${{ matrix.arch }}/Exe/${{ matrix.example }}.out
-        simulator: true
-
-  cleanup:
-    needs: run
-    runs-on: ubuntu-latest
-    timeout-minutes: 30
-    strategy:
-      matrix:
-        arch:
-        - cortexM4lf
-    steps:
-    - uses: geekyeggo/delete-artifact@f275313e70c08f6120db482d7a6b98377786765b # v5.1.0
-      with:
-        name: iar_${{ matrix.arch }}_math.a
+      run: |
+        $COMMON_DIR/CSpyBat \
+          $TARGET_DIR/libarmPROC.so \
+          $TARGET_DIR/libarmSIM2.so \
+          --plugin=$TARGET_DIR/libarmLibsupportUniversal.so \
+          --debug_file=${GITHUB_WORKSPACE}/Examples/${{ matrix.arch }}/Exe/${{ matrix.example }}.out \
+          --timeout=2000000 \
+          --backend \
+            --cpu=cortex-m4 \
+            --fpu=vfpv4_sp \
+            --endian=little \
+            --semihosting || true
