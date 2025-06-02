@@ -106,10 +106,10 @@ jobs:
         iarbuild Examples/${{ matrix.example }}.ewp -build "*" -log all -parallel `nproc`
     - name: Run example
       run: |
-        $COMMON_DIR/CSpyBat \
-          $TARGET_DIR/libarmPROC.so \
-          $TARGET_DIR/libarmSIM2.so \
-          --plugin=$TARGET_DIR/libarmLibsupportUniversal.so \
+        CSpyBat \
+          /opt/iar/cxarm/arm/bin/libarmPROC.so \
+          /opt/iar/cxarm/arm/bin/libarmSIM2.so \
+          --plugin=/opt/iar/cxarm/arm/bin/libarmLibsupportUniversal.so \
           --debug_file=${GITHUB_WORKSPACE}/Examples/${{ matrix.arch }}/Exe/${{ matrix.example }}.out \
           --timeout=2000000 \
           --backend \
