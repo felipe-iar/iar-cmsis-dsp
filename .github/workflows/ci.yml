@@ -116,4 +116,4 @@ jobs:
             --cpu=cortex-m4 \
             --fpu=vfpv4_sp \
             --endian=little \
-            --semihosting || true
+            --semihosting
