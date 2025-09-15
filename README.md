@@ -122,8 +122,8 @@ $_IAR_CMSIS_DSP_$/Lib/iar_<library-selection>_math.a
 
 ## Updating the CMSIS submodules
 For getting the newest versions of the CMSIS submodules in your repository, use:
-```
-git submodule foreach git pull
+```bash
+git submodule update --recursive --remote
 ```
 
 ## Support/Contact
