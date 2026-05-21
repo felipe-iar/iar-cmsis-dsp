@@ -47,7 +47,7 @@ foreach(TGT ${TARGETS})
   iar_cspy_test(${TGT} "SUCCESS")
 
   target_include_directories(${TGT} PRIVATE
-    "${CMAKE_CURRENT_SOURCE_DIR}/../CMSIS_5/CMSIS/Core/Include"
+    "${CMAKE_CURRENT_SOURCE_DIR}/../CMSIS_6/CMSIS/Core/Include"
     "${CMAKE_CURRENT_SOURCE_DIR}/../CMSIS-DSP/Include"
     "${CMAKE_CURRENT_SOURCE_DIR}")
 
@@ -125,7 +125,7 @@ foreach(TGT ${TARGETS})
 
   target_link_options(${TGT} PRIVATE
     --semihosting
-    --map ./$<CONFIG>/)
+    --map $<TARGET_FILE_DIR:${TGT}>)
 
   target_link_libraries(${TGT} PRIVATE
     $<$<CONFIG:cortexM0l>:        ${lib_cortexM0l}>
