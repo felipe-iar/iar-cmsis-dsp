@@ -353,8 +353,8 @@
                 </option>
                 <option>
                     <name>CCIncludePath2</name>
-                    <state>$_IAR_CMSIS_DSP_$/CMSIS_6/CMSIS/Core/Include</state>
-                    <state>$_IAR_CMSIS_DSP_$/CMSIS-DSP/Include</state>
+                    <state>$_CMSIS_DSP_PATH_$/CMSIS_6/CMSIS/Core/Include</state>
+                    <state>$_CMSIS_DSP_PATH_$/CMSIS-DSP/Include</state>
                 </option>
                 <option>
                     <name>CCStdIncCheck</name>
@@ -826,7 +826,7 @@
                 </option>
                 <option>
                     <name>IlinkAdditionalLibs</name>
-                    <state>$_IAR_CMSIS_DSP_$/Lib/iar_cortexM4lf_math.a</state>
+                    <state>$_CMSIS_DSP_PATH_$/Lib/iar_cortexM4lf_math.a</state>
                 </option>
                 <option>
                     <name>IlinkOverrideProgramEntryLabel</name>

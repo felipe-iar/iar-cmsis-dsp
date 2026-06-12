@@ -1,8 +1,9 @@
-name: IAR-CMSIS-DSP CI
+name: CMSIS-DSP v1.17.1
 
 on:
   schedule:
-  - cron: '45 4 * * *'
+  # Runs at 08:00 UTC every Monday
+  - cron: '45 4 * * 1'
   workflow_dispatch:
   push:
     paths-ignore:
@@ -22,10 +23,7 @@ jobs:
       fail-fast: false
       matrix:
         tag:
-        - 9.70.4
-        - 9.70.2
-        - 9.70.1
-        - 9.60.4
+        - 10.10.2
         arch:
         - cortexM0l
         - cortexM0b
@@ -54,12 +52,12 @@ jobs:
     container:
       image: ghcr.io/iarsystems/arm:${{ matrix.tag }}-base
     steps:
-    - uses: actions/checkout@v5
+    - uses: actions/checkout@v7
       with:
         submodules: 'true'
     - name: Set environment
       run: |
-        echo "IAR_CMSIS_DSP=${{ github.workspace }}" >> $GITHUB_ENV
+        echo "CMSIS_DSP_PATH=${{ github.workspace }}" >> $GITHUB_ENV
     - name: Build libraries
       run: |
         iarbuild Library/arm_cortexM_math.ewp \
@@ -74,10 +72,7 @@ jobs:
       fail-fast: false
       matrix:
         tag:
-        - 9.70.4
-        - 9.70.2
-        - 9.70.1
-        - 9.60.4
+        - 10.10.2
         arch:
         - cortexM4lf
         example:
@@ -96,12 +91,12 @@ jobs:
     container:
       image: ghcr.io/iarsystems/arm:${{ matrix.tag }}-base
     steps:
-    - uses: actions/checkout@v5
+    - uses: actions/checkout@v7
       with:
         submodules: 'true'
     - name: Set environment
       run: |
-        echo "IAR_CMSIS_DSP=${{ github.workspace }}" >> $GITHUB_ENV
+        echo "CMSIS_DSP_PATH=${{ github.workspace }}" >> $GITHUB_ENV
     - name: Build libraries
       run: |
         iarbuild Library/arm_cortexM_math.ewp \

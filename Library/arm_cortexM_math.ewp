@@ -16,19 +16,19 @@
                 <debug>1</debug>
                 <option>
                     <name>BrowseInfoPath</name>
-                    <state>$CONFIG_NAME$\BrowseInfo</state>
+                    <state>$CONFIG_NAME$/BrowseInfo</state>
                 </option>
                 <option>
                     <name>ExePath</name>
-                    <state>$CONFIG_NAME$\Exe</state>
+                    <state>$CONFIG_NAME$/Exe</state>
                 </option>
                 <option>
                     <name>ObjPath</name>
-                    <state>$CONFIG_NAME$\Obj</state>
+                    <state>$CONFIG_NAME$/Obj</state>
                 </option>
                 <option>
                     <name>ListPath</name>
-                    <state>$CONFIG_NAME$\List</state>
+                    <state>$CONFIG_NAME$/List</state>
                 </option>
                 <option>
                     <name>GEndianMode</name>
@@ -94,7 +94,7 @@
                 </option>
                 <option>
                     <name>RTConfigPath2</name>
-                    <state>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</state>
+                    <state>$TOOLKIT_DIR$/inc/c/DLib_Config_Normal.h</state>
                 </option>
                 <option>
                     <name>GBECoreSlave</name>
@@ -1095,7 +1095,7 @@
                 </option>
                 <option>
                     <name>IarchiveOutput</name>
-                    <state>$PROJ_DIR$\..\Lib\iar_$CONFIG_NAME$_math.a</state>
+                    <state>$PROJ_DIR$/../Lib/iar_$CONFIG_NAME$_math.a</state>
                 </option>
             </data>
         </settings>
@@ -1120,19 +1120,19 @@
                 <debug>1</debug>
                 <option>
                     <name>BrowseInfoPath</name>
-                    <state>$CONFIG_NAME$\BrowseInfo</state>
+                    <state>$CONFIG_NAME$/BrowseInfo</state>
                 </option>
                 <option>
                     <name>ExePath</name>
-                    <state>$CONFIG_NAME$\Exe</state>
+                    <state>$CONFIG_NAME$/Exe</state>
                 </option>
                 <option>
                     <name>ObjPath</name>
-                    <state>$CONFIG_NAME$\Obj</state>
+                    <state>$CONFIG_NAME$/Obj</state>
                 </option>
                 <option>
                     <name>ListPath</name>
-                    <state>$CONFIG_NAME$\List</state>
+                    <state>$CONFIG_NAME$/List</state>
                 </option>
                 <option>
                     <name>GEndianMode</name>
@@ -1198,7 +1198,7 @@
                 </option>
                 <option>
                     <name>RTConfigPath2</name>
-                    <state>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</state>
+                    <state>$TOOLKIT_DIR$/inc/c/DLib_Config_Normal.h</state>
                 </option>
                 <option>
                     <name>GBECoreSlave</name>
@@ -2200,7 +2200,7 @@
                 </option>
                 <option>
                     <name>IarchiveOutput</name>
-                    <state>$PROJ_DIR$\..\Lib\iar_$CONFIG_NAME$_math.a</state>
+                    <state>$PROJ_DIR$/../Lib/iar_$CONFIG_NAME$_math.a</state>
                 </option>
             </data>
         </settings>
@@ -2225,19 +2225,19 @@
                 <debug>1</debug>
                 <option>
                     <name>BrowseInfoPath</name>
-                    <state>$CONFIG_NAME$\BrowseInfo</state>
+                    <state>$CONFIG_NAME$/BrowseInfo</state>
                 </option>
                 <option>
                     <name>ExePath</name>
-                    <state>$CONFIG_NAME$\Exe</state>
+                    <state>$CONFIG_NAME$/Exe</state>
                 </option>
                 <option>
                     <name>ObjPath</name>
-                    <state>$CONFIG_NAME$\Obj</state>
+                    <state>$CONFIG_NAME$/Obj</state>
                 </option>
                 <option>
                     <name>ListPath</name>
-                    <state>$CONFIG_NAME$\List</state>
+                    <state>$CONFIG_NAME$/List</state>
                 </option>
                 <option>
                     <name>GEndianMode</name>
@@ -2303,7 +2303,7 @@
                 </option>
                 <option>
                     <name>RTConfigPath2</name>
-                    <state>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</state>
+                    <state>$TOOLKIT_DIR$/inc/c/DLib_Config_Normal.h</state>
                 </option>
                 <option>
                     <name>GBECoreSlave</name>
@@ -3304,7 +3304,7 @@
                 </option>
                 <option>
                     <name>IarchiveOutput</name>
-                    <state>$PROJ_DIR$\..\Lib\iar_$CONFIG_NAME$_math.a</state>
+                    <state>$PROJ_DIR$/../Lib/iar_$CONFIG_NAME$_math.a</state>
                 </option>
             </data>
         </settings>
@@ -3329,19 +3329,19 @@
                 <debug>1</debug>
                 <option>
                     <name>BrowseInfoPath</name>
-                    <state>$CONFIG_NAME$\BrowseInfo</state>
+                    <state>$CONFIG_NAME$/BrowseInfo</state>
                 </option>
                 <option>
                     <name>ExePath</name>
-                    <state>$CONFIG_NAME$\Exe</state>
+                    <state>$CONFIG_NAME$/Exe</state>
                 </option>
                 <option>
                     <name>ObjPath</name>
-                    <state>$CONFIG_NAME$\Obj</state>
+                    <state>$CONFIG_NAME$/Obj</state>
                 </option>
                 <option>
                     <name>ListPath</name>
-                    <state>$CONFIG_NAME$\List</state>
+                    <state>$CONFIG_NAME$/List</state>
                 </option>
                 <option>
                     <name>GEndianMode</name>
@@ -3407,7 +3407,7 @@
                 </option>
                 <option>
                     <name>RTConfigPath2</name>
-                    <state>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</state>
+                    <state>$TOOLKIT_DIR$/inc/c/DLib_Config_Normal.h</state>
                 </option>
                 <option>
                     <name>GBECoreSlave</name>
@@ -4409,7 +4409,7 @@
                 </option>
                 <option>
                     <name>IarchiveOutput</name>
-                    <state>$PROJ_DIR$\..\Lib\iar_$CONFIG_NAME$_math.a</state>
+                    <state>$PROJ_DIR$/../Lib/iar_$CONFIG_NAME$_math.a</state>
                 </option>
             </data>
         </settings>
@@ -4434,19 +4434,19 @@
                 <debug>1</debug>
                 <option>
                     <name>BrowseInfoPath</name>
-                    <state>$CONFIG_NAME$\BrowseInfo</state>
+                    <state>$CONFIG_NAME$/BrowseInfo</state>
                 </option>
                 <option>
                     <name>ExePath</name>
-                    <state>$CONFIG_NAME$\Exe</state>
+                    <state>$CONFIG_NAME$/Exe</state>
                 </option>
                 <option>
                     <name>ObjPath</name>
-                    <state>$CONFIG_NAME$\Obj</state>
+                    <state>$CONFIG_NAME$/Obj</state>
                 </option>
                 <option>
                     <name>ListPath</name>
-                    <state>$CONFIG_NAME$\List</state>
+                    <state>$CONFIG_NAME$/List</state>
                 </option>
                 <option>
                     <name>GEndianMode</name>
@@ -4512,7 +4512,7 @@
                 </option>
                 <option>
                     <name>RTConfigPath2</name>
-                    <state>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</state>
+                    <state>$TOOLKIT_DIR$/inc/c/DLib_Config_Normal.h</state>
                 </option>
                 <option>
                     <name>GBECoreSlave</name>
@@ -5513,7 +5513,7 @@
                 </option>
                 <option>
                     <name>IarchiveOutput</name>
-                    <state>$PROJ_DIR$\..\Lib\iar_$CONFIG_NAME$_math.a</state>
+                    <state>$PROJ_DIR$/../Lib/iar_$CONFIG_NAME$_math.a</state>
                 </option>
             </data>
         </settings>
@@ -5538,19 +5538,19 @@
                 <debug>1</debug>
                 <option>
                     <name>BrowseInfoPath</name>
-                    <state>$CONFIG_NAME$\BrowseInfo</state>
+                    <state>$CONFIG_NAME$/BrowseInfo</state>
                 </option>
                 <option>
                     <name>ExePath</name>
-                    <state>$CONFIG_NAME$\Exe</state>
+                    <state>$CONFIG_NAME$/Exe</state>
                 </option>
                 <option>
                     <name>ObjPath</name>
-                    <state>$CONFIG_NAME$\Obj</state>
+                    <state>$CONFIG_NAME$/Obj</state>
                 </option>
                 <option>
                     <name>ListPath</name>
-                    <state>$CONFIG_NAME$\List</state>
+                    <state>$CONFIG_NAME$/List</state>
                 </option>
                 <option>
                     <name>GEndianMode</name>
@@ -5616,7 +5616,7 @@
                 </option>
                 <option>
                     <name>RTConfigPath2</name>
-                    <state>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</state>
+                    <state>$TOOLKIT_DIR$/inc/c/DLib_Config_Normal.h</state>
                 </option>
                 <option>
                     <name>GBECoreSlave</name>
@@ -6618,7 +6618,7 @@
                 </option>
                 <option>
                     <name>IarchiveOutput</name>
-                    <state>$PROJ_DIR$\..\Lib\iar_$CONFIG_NAME$_math.a</state>
+                    <state>$PROJ_DIR$/../Lib/iar_$CONFIG_NAME$_math.a</state>
                 </option>
             </data>
         </settings>
@@ -6643,19 +6643,19 @@
                 <debug>1</debug>
                 <option>
                     <name>BrowseInfoPath</name>
-                    <state>$CONFIG_NAME$\BrowseInfo</state>
+                    <state>$CONFIG_NAME$/BrowseInfo</state>
                 </option>
                 <option>
                     <name>ExePath</name>
-                    <state>$CONFIG_NAME$\Exe</state>
+                    <state>$CONFIG_NAME$/Exe</state>
                 </option>
                 <option>
                     <name>ObjPath</name>
-                    <state>$CONFIG_NAME$\Obj</state>
+                    <state>$CONFIG_NAME$/Obj</state>
                 </option>
                 <option>
                     <name>ListPath</name>
-                    <state>$CONFIG_NAME$\List</state>
+                    <state>$CONFIG_NAME$/List</state>
                 </option>
                 <option>
                     <name>GEndianMode</name>
@@ -6721,7 +6721,7 @@
                 </option>
                 <option>
                     <name>RTConfigPath2</name>
-                    <state>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</state>
+                    <state>$TOOLKIT_DIR$/inc/c/DLib_Config_Normal.h</state>
                 </option>
                 <option>
                     <name>GBECoreSlave</name>
@@ -7722,7 +7722,7 @@
                 </option>
                 <option>
                     <name>IarchiveOutput</name>
-                    <state>$PROJ_DIR$\..\Lib\iar_$CONFIG_NAME$_math.a</state>
+                    <state>$PROJ_DIR$/../Lib/iar_$CONFIG_NAME$_math.a</state>
                 </option>
             </data>
         </settings>
@@ -7747,19 +7747,19 @@
                 <debug>1</debug>
                 <option>
                     <name>BrowseInfoPath</name>
-                    <state>$CONFIG_NAME$\BrowseInfo</state>
+                    <state>$CONFIG_NAME$/BrowseInfo</state>
                 </option>
                 <option>
                     <name>ExePath</name>
-                    <state>$CONFIG_NAME$\Exe</state>
+                    <state>$CONFIG_NAME$/Exe</state>
                 </option>
                 <option>
                     <name>ObjPath</name>
-                    <state>$CONFIG_NAME$\Obj</state>
+                    <state>$CONFIG_NAME$/Obj</state>
                 </option>
                 <option>
                     <name>ListPath</name>
-                    <state>$CONFIG_NAME$\List</state>
+                    <state>$CONFIG_NAME$/List</state>
                 </option>
                 <option>
                     <name>GEndianMode</name>
@@ -7825,7 +7825,7 @@
                 </option>
                 <option>
                     <name>RTConfigPath2</name>
-                    <state>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</state>
+                    <state>$TOOLKIT_DIR$/inc/c/DLib_Config_Normal.h</state>
                 </option>
                 <option>
                     <name>GBECoreSlave</name>
@@ -8827,7 +8827,7 @@
                 </option>
                 <option>
                     <name>IarchiveOutput</name>
-                    <state>$PROJ_DIR$\..\Lib\iar_$CONFIG_NAME$_math.a</state>
+                    <state>$PROJ_DIR$/../Lib/iar_$CONFIG_NAME$_math.a</state>
                 </option>
             </data>
         </settings>
@@ -8852,19 +8852,19 @@
                 <debug>1</debug>
                 <option>
                     <name>BrowseInfoPath</name>
-                    <state>$CONFIG_NAME$\BrowseInfo</state>
+                    <state>$CONFIG_NAME$/BrowseInfo</state>
                 </option>
                 <option>
                     <name>ExePath</name>
-                    <state>$CONFIG_NAME$\Exe</state>
+                    <state>$CONFIG_NAME$/Exe</state>
                 </option>
                 <option>
                     <name>ObjPath</name>
-                    <state>$CONFIG_NAME$\Obj</state>
+                    <state>$CONFIG_NAME$/Obj</state>
                 </option>
                 <option>
                     <name>ListPath</name>
-                    <state>$CONFIG_NAME$\List</state>
+                    <state>$CONFIG_NAME$/List</state>
                 </option>
                 <option>
                     <name>GEndianMode</name>
@@ -8930,7 +8930,7 @@
                 </option>
                 <option>
                     <name>RTConfigPath2</name>
-                    <state>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</state>
+                    <state>$TOOLKIT_DIR$/inc/c/DLib_Config_Normal.h</state>
                 </option>
                 <option>
                     <name>GBECoreSlave</name>
@@ -9931,7 +9931,7 @@
                 </option>
                 <option>
                     <name>IarchiveOutput</name>
-                    <state>$PROJ_DIR$\..\Lib\iar_$CONFIG_NAME$_math.a</state>
+                    <state>$PROJ_DIR$/../Lib/iar_$CONFIG_NAME$_math.a</state>
                 </option>
             </data>
         </settings>
@@ -9956,19 +9956,19 @@
                 <debug>1</debug>
                 <option>
                     <name>BrowseInfoPath</name>
-                    <state>$CONFIG_NAME$\BrowseInfo</state>
+                    <state>$CONFIG_NAME$/BrowseInfo</state>
                 </option>
                 <option>
                     <name>ExePath</name>
-                    <state>$CONFIG_NAME$\Exe</state>
+                    <state>$CONFIG_NAME$/Exe</state>
                 </option>
                 <option>
                     <name>ObjPath</name>
-                    <state>$CONFIG_NAME$\Obj</state>
+                    <state>$CONFIG_NAME$/Obj</state>
                 </option>
                 <option>
                     <name>ListPath</name>
-                    <state>$CONFIG_NAME$\List</state>
+                    <state>$CONFIG_NAME$/List</state>
                 </option>
                 <option>
                     <name>GEndianMode</name>
@@ -10034,7 +10034,7 @@
                 </option>
                 <option>
                     <name>RTConfigPath2</name>
-                    <state>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</state>
+                    <state>$TOOLKIT_DIR$/inc/c/DLib_Config_Normal.h</state>
                 </option>
                 <option>
                     <name>GBECoreSlave</name>
@@ -11036,7 +11036,7 @@
                 </option>
                 <option>
                     <name>IarchiveOutput</name>
-                    <state>$PROJ_DIR$\..\Lib\iar_$CONFIG_NAME$_math.a</state>
+                    <state>$PROJ_DIR$/../Lib/iar_$CONFIG_NAME$_math.a</state>
                 </option>
             </data>
         </settings>
@@ -11139,7 +11139,7 @@
                 </option>
                 <option>
                     <name>RTConfigPath2</name>
-                    <state>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</state>
+                    <state>$TOOLKIT_DIR$/inc/c/DLib_Config_Normal.h</state>
                 </option>
                 <option>
                     <name>GBECoreSlave</name>
@@ -12140,7 +12140,7 @@
                 </option>
                 <option>
                     <name>IarchiveOutput</name>
-                    <state>$PROJ_DIR$\..\Lib\iar_$CONFIG_NAME$_math.a</state>
+                    <state>$PROJ_DIR$/../Lib/iar_$CONFIG_NAME$_math.a</state>
                 </option>
             </data>
         </settings>
@@ -12243,7 +12243,7 @@
                 </option>
                 <option>
                     <name>RTConfigPath2</name>
-                    <state>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</state>
+                    <state>$TOOLKIT_DIR$/inc/c/DLib_Config_Normal.h</state>
                 </option>
                 <option>
                     <name>GBECoreSlave</name>
@@ -13245,7 +13245,7 @@
                 </option>
                 <option>
                     <name>IarchiveOutput</name>
-                    <state>$PROJ_DIR$\..\Lib\iar_$CONFIG_NAME$_math.a</state>
+                    <state>$PROJ_DIR$/../Lib/iar_$CONFIG_NAME$_math.a</state>
                 </option>
             </data>
         </settings>
@@ -13270,19 +13270,19 @@
                 <debug>1</debug>
                 <option>
                     <name>BrowseInfoPath</name>
-                    <state>$CONFIG_NAME$\BrowseInfo</state>
+                    <state>$CONFIG_NAME$/BrowseInfo</state>
                 </option>
                 <option>
                     <name>ExePath</name>
-                    <state>$CONFIG_NAME$\Exe</state>
+                    <state>$CONFIG_NAME$/Exe</state>
                 </option>
                 <option>
                     <name>ObjPath</name>
-                    <state>$CONFIG_NAME$\Obj</state>
+                    <state>$CONFIG_NAME$/Obj</state>
                 </option>
                 <option>
                     <name>ListPath</name>
-                    <state>$CONFIG_NAME$\List</state>
+                    <state>$CONFIG_NAME$/List</state>
                 </option>
                 <option>
                     <name>GEndianMode</name>
@@ -13348,7 +13348,7 @@
                 </option>
                 <option>
                     <name>RTConfigPath2</name>
-                    <state>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</state>
+                    <state>$TOOLKIT_DIR$/inc/c/DLib_Config_Normal.h</state>
                 </option>
                 <option>
                     <name>GBECoreSlave</name>
@@ -14349,7 +14349,7 @@
                 </option>
                 <option>
                     <name>IarchiveOutput</name>
-                    <state>$PROJ_DIR$\..\Lib\iar_$CONFIG_NAME$_math.a</state>
+                    <state>$PROJ_DIR$/../Lib/iar_$CONFIG_NAME$_math.a</state>
                 </option>
             </data>
         </settings>
@@ -14374,19 +14374,19 @@
                 <debug>1</debug>
                 <option>
                     <name>BrowseInfoPath</name>
-                    <state>$CONFIG_NAME$\BrowseInfo</state>
+                    <state>$CONFIG_NAME$/BrowseInfo</state>
                 </option>
                 <option>
                     <name>ExePath</name>
-                    <state>$CONFIG_NAME$\Exe</state>
+                    <state>$CONFIG_NAME$/Exe</state>
                 </option>
                 <option>
                     <name>ObjPath</name>
-                    <state>$CONFIG_NAME$\Obj</state>
+                    <state>$CONFIG_NAME$/Obj</state>
                 </option>
                 <option>
                     <name>ListPath</name>
-                    <state>$CONFIG_NAME$\List</state>
+                    <state>$CONFIG_NAME$/List</state>
                 </option>
                 <option>
                     <name>GEndianMode</name>
@@ -14452,7 +14452,7 @@
                 </option>
                 <option>
                     <name>RTConfigPath2</name>
-                    <state>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</state>
+                    <state>$TOOLKIT_DIR$/inc/c/DLib_Config_Normal.h</state>
                 </option>
                 <option>
                     <name>GBECoreSlave</name>
@@ -15454,7 +15454,7 @@
                 </option>
                 <option>
                     <name>IarchiveOutput</name>
-                    <state>$PROJ_DIR$\..\Lib\iar_$CONFIG_NAME$_math.a</state>
+                    <state>$PROJ_DIR$/../Lib/iar_$CONFIG_NAME$_math.a</state>
                 </option>
             </data>
         </settings>
@@ -15479,19 +15479,19 @@
                 <debug>1</debug>
                 <option>
                     <name>BrowseInfoPath</name>
-                    <state>$CONFIG_NAME$\BrowseInfo</state>
+                    <state>$CONFIG_NAME$/BrowseInfo</state>
                 </option>
                 <option>
                     <name>ExePath</name>
-                    <state>$CONFIG_NAME$\Exe</state>
+                    <state>$CONFIG_NAME$/Exe</state>
                 </option>
                 <option>
                     <name>ObjPath</name>
-                    <state>$CONFIG_NAME$\Obj</state>
+                    <state>$CONFIG_NAME$/Obj</state>
                 </option>
                 <option>
                     <name>ListPath</name>
-                    <state>$CONFIG_NAME$\List</state>
+                    <state>$CONFIG_NAME$/List</state>
                 </option>
                 <option>
                     <name>GEndianMode</name>
@@ -15557,7 +15557,7 @@
                 </option>
                 <option>
                     <name>RTConfigPath2</name>
-                    <state>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</state>
+                    <state>$TOOLKIT_DIR$/inc/c/DLib_Config_Normal.h</state>
                 </option>
                 <option>
                     <name>GBECoreSlave</name>
@@ -16558,7 +16558,7 @@
                 </option>
                 <option>
                     <name>IarchiveOutput</name>
-                    <state>$PROJ_DIR$\..\Lib\iar_$CONFIG_NAME$_math.a</state>
+                    <state>$PROJ_DIR$/../Lib/iar_$CONFIG_NAME$_math.a</state>
                 </option>
             </data>
         </settings>
@@ -16583,19 +16583,19 @@
                 <debug>1</debug>
                 <option>
                     <name>BrowseInfoPath</name>
-                    <state>$CONFIG_NAME$\BrowseInfo</state>
+                    <state>$CONFIG_NAME$/BrowseInfo</state>
                 </option>
                 <option>
                     <name>ExePath</name>
-                    <state>$CONFIG_NAME$\Exe</state>
+                    <state>$CONFIG_NAME$/Exe</state>
                 </option>
                 <option>
                     <name>ObjPath</name>
-                    <state>$CONFIG_NAME$\Obj</state>
+                    <state>$CONFIG_NAME$/Obj</state>
                 </option>
                 <option>
                     <name>ListPath</name>
-                    <state>$CONFIG_NAME$\List</state>
+                    <state>$CONFIG_NAME$/List</state>
                 </option>
                 <option>
                     <name>GEndianMode</name>
@@ -16661,7 +16661,7 @@
                 </option>
                 <option>
                     <name>RTConfigPath2</name>
-                    <state>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</state>
+                    <state>$TOOLKIT_DIR$/inc/c/DLib_Config_Normal.h</state>
                 </option>
                 <option>
                     <name>GBECoreSlave</name>
@@ -17662,7 +17662,7 @@
                 </option>
                 <option>
                     <name>IarchiveOutput</name>
-                    <state>$PROJ_DIR$\..\Lib\iar_$CONFIG_NAME$_math.a</state>
+                    <state>$PROJ_DIR$/../Lib/iar_$CONFIG_NAME$_math.a</state>
                 </option>
             </data>
         </settings>
@@ -17687,19 +17687,19 @@
                 <debug>1</debug>
                 <option>
                     <name>BrowseInfoPath</name>
-                    <state>$CONFIG_NAME$\BrowseInfo</state>
+                    <state>$CONFIG_NAME$/BrowseInfo</state>
                 </option>
                 <option>
                     <name>ExePath</name>
-                    <state>$CONFIG_NAME$\Exe</state>
+                    <state>$CONFIG_NAME$/Exe</state>
                 </option>
                 <option>
                     <name>ObjPath</name>
-                    <state>$CONFIG_NAME$\Obj</state>
+                    <state>$CONFIG_NAME$/Obj</state>
                 </option>
                 <option>
                     <name>ListPath</name>
-                    <state>$CONFIG_NAME$\List</state>
+                    <state>$CONFIG_NAME$/List</state>
                 </option>
                 <option>
                     <name>GEndianMode</name>
@@ -17765,7 +17765,7 @@
                 </option>
                 <option>
                     <name>RTConfigPath2</name>
-                    <state>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</state>
+                    <state>$TOOLKIT_DIR$/inc/c/DLib_Config_Normal.h</state>
                 </option>
                 <option>
                     <name>GBECoreSlave</name>
@@ -18766,7 +18766,7 @@
                 </option>
                 <option>
                     <name>IarchiveOutput</name>
-                    <state>$PROJ_DIR$\..\Lib\iar_$CONFIG_NAME$_math.a</state>
+                    <state>$PROJ_DIR$/../Lib/iar_$CONFIG_NAME$_math.a</state>
                 </option>
             </data>
         </settings>
@@ -18791,19 +18791,19 @@
                 <debug>1</debug>
                 <option>
                     <name>BrowseInfoPath</name>
-                    <state>$CONFIG_NAME$\BrowseInfo</state>
+                    <state>$CONFIG_NAME$/BrowseInfo</state>
                 </option>
                 <option>
                     <name>ExePath</name>
-                    <state>$CONFIG_NAME$\Exe</state>
+                    <state>$CONFIG_NAME$/Exe</state>
                 </option>
                 <option>
                     <name>ObjPath</name>
-                    <state>$CONFIG_NAME$\Obj</state>
+                    <state>$CONFIG_NAME$/Obj</state>
                 </option>
                 <option>
                     <name>ListPath</name>
-                    <state>$CONFIG_NAME$\List</state>
+                    <state>$CONFIG_NAME$/List</state>
                 </option>
                 <option>
                     <name>GEndianMode</name>
@@ -18869,7 +18869,7 @@
                 </option>
                 <option>
                     <name>RTConfigPath2</name>
-                    <state>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</state>
+                    <state>$TOOLKIT_DIR$/inc/c/DLib_Config_Normal.h</state>
                 </option>
                 <option>
                     <name>GBECoreSlave</name>
@@ -19870,7 +19870,7 @@
                 </option>
                 <option>
                     <name>IarchiveOutput</name>
-                    <state>$PROJ_DIR$\..\Lib\iar_$CONFIG_NAME$_math.a</state>
+                    <state>$PROJ_DIR$/../Lib/iar_$CONFIG_NAME$_math.a</state>
                 </option>
             </data>
         </settings>
@@ -19895,19 +19895,19 @@
                 <debug>1</debug>
                 <option>
                     <name>BrowseInfoPath</name>
-                    <state>$CONFIG_NAME$\BrowseInfo</state>
+                    <state>$CONFIG_NAME$/BrowseInfo</state>
                 </option>
                 <option>
                     <name>ExePath</name>
-                    <state>$CONFIG_NAME$\Exe</state>
+                    <state>$CONFIG_NAME$/Exe</state>
                 </option>
                 <option>
                     <name>ObjPath</name>
-                    <state>$CONFIG_NAME$\Obj</state>
+                    <state>$CONFIG_NAME$/Obj</state>
                 </option>
                 <option>
                     <name>ListPath</name>
-                    <state>$CONFIG_NAME$\List</state>
+                    <state>$CONFIG_NAME$/List</state>
                 </option>
                 <option>
                     <name>GEndianMode</name>
@@ -19973,7 +19973,7 @@
                 </option>
                 <option>
                     <name>RTConfigPath2</name>
-                    <state>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</state>
+                    <state>$TOOLKIT_DIR$/inc/c/DLib_Config_Normal.h</state>
                 </option>
                 <option>
                     <name>GBECoreSlave</name>
@@ -20974,7 +20974,7 @@
                 </option>
                 <option>
                     <name>IarchiveOutput</name>
-                    <state>$PROJ_DIR$\..\Lib\iar_$CONFIG_NAME$_math.a</state>
+                    <state>$PROJ_DIR$/../Lib/iar_$CONFIG_NAME$_math.a</state>
                 </option>
             </data>
         </settings>
@@ -20999,19 +20999,19 @@
                 <debug>1</debug>
                 <option>
                     <name>BrowseInfoPath</name>
-                    <state>$CONFIG_NAME$\BrowseInfo</state>
+                    <state>$CONFIG_NAME$/BrowseInfo</state>
                 </option>
                 <option>
                     <name>ExePath</name>
-                    <state>$CONFIG_NAME$\Exe</state>
+                    <state>$CONFIG_NAME$/Exe</state>
                 </option>
                 <option>
                     <name>ObjPath</name>
-                    <state>$CONFIG_NAME$\Obj</state>
+                    <state>$CONFIG_NAME$/Obj</state>
                 </option>
                 <option>
                     <name>ListPath</name>
-                    <state>$CONFIG_NAME$\List</state>
+                    <state>$CONFIG_NAME$/List</state>
                 </option>
                 <option>
                     <name>GEndianMode</name>
@@ -21077,7 +21077,7 @@
                 </option>
                 <option>
                     <name>RTConfigPath2</name>
-                    <state>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</state>
+                    <state>$TOOLKIT_DIR$/inc/c/DLib_Config_Normal.h</state>
                 </option>
                 <option>
                     <name>GBECoreSlave</name>
@@ -22078,7 +22078,7 @@
                 </option>
                 <option>
                     <name>IarchiveOutput</name>
-                    <state>$PROJ_DIR$\..\Lib\iar_$CONFIG_NAME$_math.a</state>
+                    <state>$PROJ_DIR$/../Lib/iar_$CONFIG_NAME$_math.a</state>
                 </option>
             </data>
         </settings>
@@ -22103,19 +22103,19 @@
                 <debug>1</debug>
                 <option>
                     <name>BrowseInfoPath</name>
-                    <state>$CONFIG_NAME$\BrowseInfo</state>
+                    <state>$CONFIG_NAME$/BrowseInfo</state>
                 </option>
                 <option>
                     <name>ExePath</name>
-                    <state>$CONFIG_NAME$\Exe</state>
+                    <state>$CONFIG_NAME$/Exe</state>
                 </option>
                 <option>
                     <name>ObjPath</name>
-                    <state>$CONFIG_NAME$\Obj</state>
+                    <state>$CONFIG_NAME$/Obj</state>
                 </option>
                 <option>
                     <name>ListPath</name>
-                    <state>$CONFIG_NAME$\List</state>
+                    <state>$CONFIG_NAME$/List</state>
                 </option>
                 <option>
                     <name>GEndianMode</name>
@@ -22181,7 +22181,7 @@
                 </option>
                 <option>
                     <name>RTConfigPath2</name>
-                    <state>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</state>
+                    <state>$TOOLKIT_DIR$/inc/c/DLib_Config_Normal.h</state>
                 </option>
                 <option>
                     <name>GBECoreSlave</name>
@@ -23182,7 +23182,7 @@
                 </option>
                 <option>
                     <name>IarchiveOutput</name>
-                    <state>$PROJ_DIR$\..\Lib\iar_$CONFIG_NAME$_math.a</state>
+                    <state>$PROJ_DIR$/../Lib/iar_$CONFIG_NAME$_math.a</state>
                 </option>
             </data>
         </settings>
@@ -23285,7 +23285,7 @@
                 </option>
                 <option>
                     <name>RTConfigPath2</name>
-                    <state>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</state>
+                    <state>$TOOLKIT_DIR$/inc/c/DLib_Config_Normal.h</state>
                 </option>
                 <option>
                     <name>GBECoreSlave</name>
@@ -24286,7 +24286,7 @@
                 </option>
                 <option>
                     <name>IarchiveOutput</name>
-                    <state>$PROJ_DIR$\..\Lib\iar_$CONFIG_NAME$_math.a</state>
+                    <state>$PROJ_DIR$/../Lib/iar_$CONFIG_NAME$_math.a</state>
                 </option>
             </data>
         </settings>
@@ -24389,7 +24389,7 @@
                 </option>
                 <option>
                     <name>RTConfigPath2</name>
-                    <state>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</state>
+                    <state>$TOOLKIT_DIR$/inc/c/DLib_Config_Normal.h</state>
                 </option>
                 <option>
                     <name>GBECoreSlave</name>
@@ -25390,7 +25390,7 @@
                 </option>
                 <option>
                     <name>IarchiveOutput</name>
-                    <state>$PROJ_DIR$\..\Lib\iar_$CONFIG_NAME$_math.a</state>
+                    <state>$PROJ_DIR$/../Lib/iar_$CONFIG_NAME$_math.a</state>
                 </option>
             </data>
         </settings>
@@ -25493,7 +25493,7 @@
                 </option>
                 <option>
                     <name>RTConfigPath2</name>
-                    <state>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</state>
+                    <state>$TOOLKIT_DIR$/inc/c/DLib_Config_Normal.h</state>
                 </option>
                 <option>
                     <name>GBECoreSlave</name>
@@ -26495,7 +26495,7 @@
                 </option>
                 <option>
                     <name>IarchiveOutput</name>
-                    <state>$PROJ_DIR$\..\Lib\iar_$CONFIG_NAME$_math.a</state>
+                    <state>$PROJ_DIR$/../Lib/iar_$CONFIG_NAME$_math.a</state>
                 </option>
             </data>
         </settings>
